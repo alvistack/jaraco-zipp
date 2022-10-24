@@ -1,0 +1,5 @@
+python-zipp (100:3.11.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/jaraco/zipp/releases/tag/v3.11.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Sat, 26 Nov 2022 17:47:20 +0800
