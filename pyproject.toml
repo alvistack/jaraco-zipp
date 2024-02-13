@@ -1,9 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.2", "setuptools_scm[toml]>=3.4.1"]
+requires = ["setuptools>=61.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "zipp"
+version = "3.19.3"
 authors = [
 	{ name = "Jason R. Coombs", email = "jaraco@jaraco.com" },
 ]
@@ -19,7 +20,6 @@ classifiers = [
 requires-python = ">=3.8"
 dependencies = [
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/zipp"
@@ -56,5 +56,3 @@ doc = [
 
 	# local
 ]
-
-[tool.setuptools_scm]
