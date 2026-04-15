@@ -1,14 +1,12 @@
 [build-system]
 requires = [
 	"setuptools>=77",
-	"setuptools_scm[toml]>=3.4.1",
-	# jaraco/skeleton#174
-	"coherent.licensed",
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "zipp"
+version = "3.23.1"
 authors = [
 	{ name = "Jason R. Coombs", email = "jaraco@jaraco.com" },
 ]
@@ -21,10 +19,8 @@ classifiers = [
 	"Programming Language :: Python :: 3 :: Only",
 ]
 requires-python = ">=3.9"
-license = "MIT"
 dependencies = [
 ]
-dynamic = ["version"]
 
 [project.urls]
 Source = "https://github.com/jaraco/zipp"
@@ -76,9 +72,6 @@ type = [
 
 	# local
 ]
-
-
-[tool.setuptools_scm]
 
 
 [tool.pytest-enabler.mypy]
